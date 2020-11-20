@@ -1,8 +1,8 @@
 name: Ping
 env:
-  REPO_OWNER: meroware
+  REPO_OWNER: seki2020
   REPO_NAME: example-event-dispatcher-workflows
-  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 on:
   repository_dispatch:
     types: [run-ping]

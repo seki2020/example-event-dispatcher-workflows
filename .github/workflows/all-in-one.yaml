@@ -1,6 +1,6 @@
 name: All-In-One
 env:
-  REPO_OWNER: meroware
+  REPO_OWNER: seki2020
   REPO_NAME: example-event-dispatcher-workflows
   GITHUB_TOKEN: ${{ secrets.TOKEN }}
 on:
