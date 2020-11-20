@@ -39,10 +39,10 @@ async function run(command) {
       throw new Error("Command not supported");
   }
 
+  console.log("run -> token", token);
+  console.log("run -> repo", repo);
+  console.log("run -> owner", owner);
   if (!owner || !repo || !token) {
-    console.log("run -> token", token);
-    console.log("run -> repo", repo);
-    console.log("run -> owner", owner);
     throw new Error("Owner and repo required");
   }
 
